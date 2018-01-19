@@ -1,0 +1,71 @@
+# Lines
+lines.linewidth: 1.1
+lines.markersize: 4
+lines.markeredgewidth: 0
+lines.dashed_pattern: 2.5, 1.5 #Scaled with linewidth
+
+# Error bars
+errorbar.capsize: 0 #3.2
+
+# Font sizes
+font.monospace: 'Fixed'
+axes.titlesize: 9
+font.size: 8
+axes.labelsize: 9
+xtick.labelsize: 8
+ytick.labelsize: 8
+legend.fontsize: 8
+
+# Math font
+mathtext.fontset: stix
+mathtext.default: it
+
+# Axes
+#axes.edgecolor: black
+axes.linewidth: 1
+axes.labelpad: 2.4 #3
+axes.axisbelow: True       # grid/ticks are below elements (e.g., lines, text)
+axes.spines.top: False
+axes.spines.right: False
+axes.autolimit_mode: data
+
+# Grid
+grid.color: dbdbdb
+grid.linewidth: 0.4
+
+# Ticks
+xtick.top: False
+ytick.right: False
+xtick.direction: in
+ytick.direction: in
+xtick.color: black
+ytick.color: black
+
+xtick.major.size: 4
+ytick.major.size: 4
+xtick.major.width: 0.8
+ytick.major.width: 0.8
+xtick.major.pad: 5
+ytick.major.pad: 5
+
+xtick.minor.visible: True
+ytick.minor.visible: True
+xtick.minor.size: 2
+ytick.minor.size: 2
+xtick.minor.width: 0.6
+ytick.minor.width: 0.6
+
+# Legend
+legend.edgecolor: 0.6
+legend.handlelength: 2.5
+legend.fancybox: True
+
+# Colormap
+axes.prop_cycle: cycler('color', ['000000','2b6f39','d490c6','192d48','a1794a','c3d9f3'])
+# Color cycle over normalized 6 lines of cubehelix
+#nlines = 6
+#cNorm  = colors.Normalize(vmin=0, vmax=nlines)
+#scalarMap = cm.ScalarMappable(norm=cNorm, cmap=cm.get_cmap('cubehelix'))
+#color=scalarMap.to_rgba(0)
+#color=colors.rgb2hex(color)
+# in original order of luminance: ['000000','192d48','2b6f39','a1794a','d490c6','c3d9f3']
